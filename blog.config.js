@@ -15,7 +15,7 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: '申永豪‘, // 您的昵称 例如 tangly1024
-  BIO: 辛勤为兄弟找女朋友的好人, // 作者简介
+  BIO: '辛勤为兄弟找女朋友的好人', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.yonghao.top/', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
